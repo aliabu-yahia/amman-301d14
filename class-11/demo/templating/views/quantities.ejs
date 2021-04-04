@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+  <h1>My Grocery List</h1>
+  <p><a href="/">Home</a></p>
+
+  <ul>
+    <% groceriesObj.forEach( item=> { %>
+      <li>
+
+        <%= item.name %>
+          <%= item.quantity %>
+      </li>
+      <% }) %>
+  </ul>
+</body>
+
+</html>

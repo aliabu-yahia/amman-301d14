@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Form Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <form method="POST" action="/contact">
+    <fieldset>
+      <legend>Add your Info</legend>
+      <label>
+        <span>First Name</span>
+        <input type="text" name="first-name">
+      </label>
+      <label>
+        <span>Second Name</span>
+        <input type="text" name="second-name">
+      </label>
+      <label>
+        <span>Age</span>
+        <input type="number" name="age">
+      </label>
+      <label>
+        <span>Enter your message</span>
+        <textarea name="user-message"></textarea>
+      </label>
+      <input type="submit" value="Submit Form">
+    </fieldset>
+  </form>
+</body>
+
+</html>
