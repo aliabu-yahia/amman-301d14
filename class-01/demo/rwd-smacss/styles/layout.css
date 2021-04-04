@@ -1,0 +1,28 @@
+header {
+  height: 100px;
+}
+
+footer {
+  height: 100px;
+}
+
+section {
+  overflow: auto;
+  margin: auto;
+}
+
+div {
+  height: 300px;
+  width: 300px;
+  margin: 5% auto;
+}
+
+@media (min-width: 900px) and (max-width: 1080px) {
+  section {
+    display: inline-block;
+  }
+
+  div {
+    float: left;
+  }
+}

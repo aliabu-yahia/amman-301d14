@@ -1,0 +1,13 @@
+section {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  grid-template-columns: repeat(4, 25%);
+}
+
+.one {
+  order: 2;
+}
+
+.two {
+  order: 1;
+}
